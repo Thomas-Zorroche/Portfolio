@@ -18,9 +18,7 @@ export const Header = () => {
           <p>projects</p>
         </Link>
 
-        <Link to="/">
-          <p>art</p>
-        </Link>
+        <a href="https://www.artstation.com/thomas10" target="_blank" rel='noreferrer'><p>art</p></a>
 
         <Link to="/profile">
           <p>profile</p>
