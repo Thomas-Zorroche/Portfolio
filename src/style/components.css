@@ -1,0 +1,199 @@
+#Header {
+  color: white;
+  position: fixed;
+
+  width: 100%;
+  height: 80px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+
+  background-color: var(--black);
+}
+.header-name {
+  font-size: 2.0em;
+  font-weight: bold;
+  font-variant: small-caps;
+}
+.header-links {
+  width: 25%;
+
+  font-size: 1.4em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.header-links p:hover {
+  color: var(--red);
+}
+
+
+/* PROJECTS PAGE */
+.title-cover {
+  width: 100%;
+  height: 450px;
+  
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+
+  color: white;
+  font-size: 4.5em;
+  font-variant: small-caps;
+  letter-spacing: 30px;
+
+  background-size: cover;
+  background-position: center;
+}
+.cover-projects {
+  background-image: url("img/lake-bled.jpg");
+
+}
+.cover-profile {
+  background-image: url("img/astroport.jpg");
+}
+.title-cover p {
+  margin-bottom: 60px;
+}
+
+.filters-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--redLight);
+  padding: 15px 0 15px 0;
+}
+
+#Categories {
+  margin: 30px 0 30px 0;
+  font-size: 1.25em;
+  width: 20%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  border-top: solid grey 1px;
+  border-bottom: solid grey 1px;
+}
+.categorie {
+  border-bottom: solid 2.5px;
+  border-color:rgba(255, 255, 255, 0);
+  transition: all .4s ease-in-out;
+  user-select: none;
+  cursor: pointer;
+}
+.categorie:hover {
+  border-color:var(--red);
+}
+.categorie-selected {
+  border-bottom: solid 2.5px;
+  transition: all .4s ease-in-out;
+  user-select: none;
+  cursor: pointer;
+  color: var(--red);
+  border-color:var(--red);
+}
+
+#Tags {
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.tag {
+  border: 1px solid;
+  border-radius: 20px;
+  padding: 5px 10px 5px 10px;
+  cursor: pointer;
+  user-select: none;
+}
+.tag:hover {
+  color:var(--red);
+}
+.tag-selected {
+  border: 1px solid;
+  border-radius: 20px;
+  padding: 5px 10px 5px 10px;
+  cursor: pointer;
+  user-select: none;
+
+  color: white;
+  background-color: var(--red);
+  border-color: var(--red);
+}
+
+/* CARDS */
+#Card-container {
+  width: 80%;
+  
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+}
+.card {
+  width: 400px;
+
+  margin: 25px;
+
+  display: flex;
+  flex-direction: column;
+
+  background-color: white;
+  box-shadow: 0px 0px 10px rgb(71, 71, 71);
+  border-radius: 5px;
+  overflow: hidden;
+}
+.card-desc-container {
+  padding-left: 25px;
+}
+.card-desc-container-hover {
+  background-color: var(--red);
+  color: white;
+  transition: all .6s ease-in-out;
+}
+.card-name {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 15px 0 10px 0;
+}
+.card-date {
+  margin: 0px 0 10px 0;
+}
+.card-desc {
+  margin: 10px 0 10px 0;
+}
+.tag-preview {
+  height: 64px;
+  margin: 5px 10px 10px 10px;
+}
+
+.project-preview {
+  width: 400px;
+  height: 250px;
+  cursor: pointer;
+}
+.project-preview:hover {
+  opacity: 0.5;
+  filter: brightness(0.65);
+}
+
+
+/* FOOTER */
+#Footer {
+  margin-top:auto;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--black);
+  color: white;
+  padding: 15px 0 15px 0;
+  font-size: 1.2em;
+}
