@@ -29,7 +29,7 @@ export const Card = ({ name, date, desc, tags, preview, url }) => {
           <p className="card-date">{date}</p>
           <p className="card-desc">{desc}</p>
 
-          {tags.map(tag => <img className="tag-preview" src={"icons/" + tag + ".png"} alt="tag-preview"/>)}
+          {tags.map(tag => <img className="tag-preview" src={"icons/" + tag.toLowerCase() + ".png"} alt="tag-preview"/>)}
         </div>
       </div>
     </a>
