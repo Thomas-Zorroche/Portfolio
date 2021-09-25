@@ -16,7 +16,12 @@ export const Card = ({ name, date, desc, tags, url }) => {
 
   return (
     <div className="card" onMouseEnter={mouseEnter} onMouseLeave={mouseLeave}>
-      <img class="project-preview" src={"project-preview/" + url} alt="project-preview" />
+      <img class={hover ? "project-preview  project-preview-hover" : "project-preview"}  
+        src={"project-preview/" + url} 
+        alt="project-preview"
+      />
+
+      <img className="eye" src="icons/eye.svg" alt="eye" style={{opacity: hover ? 0.8 : 0.0}} />
 
       <div className={hover ? "card-desc-container card-desc-container-hover" : "card-desc-container"}>
         <p className="card-name">{name}</p>

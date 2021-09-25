@@ -13,14 +13,15 @@
   background-color: var(--black);
 }
 .header-name {
-  font-size: 2.0em;
-  font-weight: bold;
-  font-variant: small-caps;
+  font-family: 'Amatic SC', cursive;
+  font-size: 3.0em;
+  letter-spacing: 5px;
 }
 .header-links {
   width: 25%;
+  font-family: 'Josefin Slab', serif;
 
-  font-size: 1.4em;
+  font-size: 2em;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -32,6 +33,9 @@
 
 /* PROJECTS PAGE */
 .title-cover {
+  font-family: 'Josefin Slab', serif;
+  font-weight: bold;
+  
   width: 100%;
   height: 450px;
   
@@ -69,8 +73,9 @@
 }
 
 #Categories {
+  font-family: 'Josefin Slab', serif;
   margin: 30px 0 30px 0;
-  font-size: 1.25em;
+  font-size: 1.5em;
   width: 20%;
   display: flex;
   justify-content: space-around;
@@ -138,8 +143,8 @@
   padding-top: 20px;
 }
 .card {
+  position: relative;
   width: 400px;
-
   margin: 25px;
 
   display: flex;
@@ -149,6 +154,7 @@
   box-shadow: 0px 0px 10px rgb(71, 71, 71);
   border-radius: 5px;
   overflow: hidden;
+  cursor: pointer;
 }
 .card-desc-container {
   padding-left: 25px;
@@ -156,7 +162,7 @@
 .card-desc-container-hover {
   background-color: var(--red);
   color: white;
-  transition: all .6s ease-in-out;
+  transition: all .4s ease-in-out;
 }
 .card-name {
   font-size: 1.5em;
@@ -164,6 +170,8 @@
   margin: 15px 0 10px 0;
 }
 .card-date {
+  font-family: 'Josefin Slab', serif;
+  font-size: 1.2em;
   margin: 0px 0 10px 0;
 }
 .card-desc {
@@ -177,11 +185,26 @@
 .project-preview {
   width: 400px;
   height: 250px;
-  cursor: pointer;
 }
-.project-preview:hover {
+.project-preview-hover {
   opacity: 0.5;
   filter: brightness(0.65);
+  transition: all .4s ease-in-out;
+}
+.eye {
+  position: absolute;
+  height: 100px; /* for example */
+  top: 25%;
+  margin-top: -50px; /* height divided by 2 */
+
+  width: 100px; /* for example */
+  left: 50%;
+  margin-left: -50px; /* width divided by 2 */
+
+  filter: invert(100%) sepia(0%) saturate(7460%) hue-rotate(75deg) brightness(110%) contrast(99%);
+  opacity: 0.8;
+  pointer-events: none;
+  transition: all .4s ease-in-out;
 }
 
 
