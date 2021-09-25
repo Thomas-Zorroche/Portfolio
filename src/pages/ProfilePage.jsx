@@ -15,7 +15,7 @@ export const ProfilePage = () => {
           <h2>Student in Software Engineering</h2>
           <p className="bio">Currently in my last year of engineering school in Paris, 
           I am also following a master's degree in computer science specialized in image. 
-          I'm also passionate about <strong>3D applications and video games development.</strong></p>
+          I'm passionate about <strong>3D applications and video games development.</strong></p>
           <p className="bio" style={{fontWeight:'bold'}}>I am looking for an internship in these sectors for a period of 4 to 6 months, starting in April.</p>
           <p className="bio">Please contact me by email or phone if you are interested in my profile.</p>
 

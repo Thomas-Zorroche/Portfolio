@@ -1,17 +1,96 @@
 {
   "projects": [
-    { "id": 0, "name" : "Oniris", "date": 2020, "type": "prog", "tags": ["C++", "OpenGL"], "desc": "super cool opengl game.", "url": "Oniris.png"},
-    { "id": 1, "name" : "PlanetLab", "date": 2021, "type": "prog", "tags": ["C++", "OpenGL"], "desc": "super cool opengl software.", "url": "PlanetLab.png"},
-    { "id": 2, "name" : "Gardians Of Knaerwood", "date": 2019, "type": "prog", "tags": ["C++", "OpenGL"], "desc": "super cool opengl game.", "url": "Knaerwood.png"},
-    { "id": 3, "name" : "Lost In Abyss", "date": 2021, "type": "prog", "tags": ["Unreal", "Blender"], "desc": "super cool opengl software.", "url": "LostInAbyss.png"},
-    { "id": 4, "name" : "Space Explorer", "date": 2021, "type": "prog", "tags": ["C++", "OpenGL"], "desc": "super cool opengl software.", "url": "Space_Explorer.jpg"},
-    { "id": 5, "name" : "Meshroom", "date": 2021, "type": "prog", "tags": ["C++", "QT", "Python"], "desc": "Intership in Mikros Image, work in 3D reconstruction software Meshroom.", "url": "meshroom.png"},
-    { "id": 8, "name" : "Snake 3D", "date": 2021, "type": "prog", "tags": ["C++", "OpenGL"], "desc": "Intership in Mikros Image, work in 3D reconstruction software Meshroom.", "url": "snake3D.png"},
-
-    
-    { "id": 6, "name" : "Euclelia", "date": 2021, "type": "web", "tags": ["React", "PHP"], "desc": "Intership in Mikros Image, work in 3D reconstruction software Meshroom."},
-    { "id": 7, "name" : "Movimac", "date": 2020, "type": "web", "tags": ["PHP"], "desc": "Intership in Mikros Image, work in 3D reconstruction software Meshroom."}
-
-
+    {
+      "id": 0,
+      "name": "Oniris",
+      "date": 2020,
+      "type": "prog",
+      "tags": [
+        "C++",
+        "OpenGL"
+      ],
+      "desc": "C++ / OpenGL Project for Imac school 3rd Semester .",
+      "preview": "Oniris.png",
+      "url": "https://github.com/Thomas-Zorroche/Oniris"
+    },
+    {
+      "id": 1,
+      "name": "PlanetLab",
+      "date": 2021,
+      "type": "prog",
+      "tags": [
+        "C++",
+        "OpenGL"
+      ],
+      "desc": "Stylized procedural planets editor.",
+      "preview": "PlanetLab.png",
+      "url": "https://github.com/Thomas-Zorroche/Procedural-Planets"
+    },
+    {
+      "id": 2,
+      "name": "Gardians Of Knaerwood",
+      "date": 2020,
+      "type": "prog",
+      "tags": [
+        "C++",
+        "OpenGL"
+      ],
+      "desc": "2D Game written with C++ and OpenGL",
+      "preview": "Knaerwood.png",
+      "url": "https://gitlab.com/emmavbl/guardians-of-knaerwood"
+    },
+    {
+      "id": 3,
+      "name": "Lost In Abyss",
+      "date": 2021,
+      "type": "prog",
+      "tags": [
+        "Unreal",
+        "Blender"
+      ],
+      "desc": "Unreal Engine Escape Game",
+      "preview": "LostInAbyss.png",
+      "url": "https://art3mma.itch.io/lost-in-abyss"
+    },
+    {
+      "id": 4,
+      "name": "Space Explorer",
+      "date": 2021,
+      "type": "prog",
+      "tags": [
+        "C++",
+        "OpenGL"
+      ],
+      "desc": "3D Game written in C++ using OpenGL 3.3, GLFW and GLAD.",
+      "preview": "Space_Explorer.jpg",
+      "url": "https://github.com/Thomas-Zorroche/Space-Explorer"
+    },
+    {
+      "id": 5,
+      "name": "Meshroom",
+      "date": 2021,
+      "type": "prog",
+      "tags": [
+        "C++",
+        "QT",
+        "Python"
+      ],
+      "desc": "Intership in Mikros Image, work in 3D reconstruction software Meshroom.",
+      "preview": "meshroom.png",
+      "url": "https://github.com/Thomas-Zorroche/AliceVision"
+    },
+    {
+      "id": 8,
+      "name": "Snake 3D",
+      "date": 2020,
+      "type": "prog",
+      "tags": [
+        "C++",
+        "OpenGL"
+      ],
+      "desc": "Snake game written with C++ and OpenGL.",
+      "preview": "snake3D.png",
+      "url": "https://github.com/Thomas-Zorroche/Snake3D"
+    }
   ]
 }

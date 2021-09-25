@@ -55,6 +55,7 @@ export const ProjectsPage = () => {
             date={project.date} 
             desc={project.desc}
             tags={project.tags}
+            preview={project.preview}
             url={project.url}
           />
         )}
